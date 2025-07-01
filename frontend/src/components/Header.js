@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -14,9 +13,10 @@ const Header = () => {
     return (
         <header className="bg-white shadow-md">
             <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
-                <Link to="/" className="text-2xl font-bold text-indigo-600">Elite Property</Link>
+                <Link to="/" className="text-2xl font-bold text-indigo-600">RentSphere</Link>
                 <div className="flex items-center space-x-4">
                     <Link to="/" className="text-gray-600 hover:text-indigo-600">Home</Link>
+                    <Link to="/about" className="text-gray-600 hover:text-indigo-600">About</Link>
                     {token ? (
                         <>
                             <Link to="/add-property" className="text-gray-600 hover:text-indigo-600">Add Property</Link>
