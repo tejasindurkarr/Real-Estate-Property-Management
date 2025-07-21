@@ -1,5 +1,5 @@
 
-# Rbrickks Technology – MERN Stack Real Estate App
+# MERN Stack Real Estate App
 
 This is a full-stack web application using the MERN stack that allows users to manage real estate properties.
 
